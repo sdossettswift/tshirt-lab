@@ -4,22 +4,25 @@
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
-  max-width: 600px; }
+  justify-content: center;
+  align-items: center; }
 
 .icon-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: stretch; }
+  align-items: stretch;
+  height: 40px; }
 
 .icon-container > div {
   width: 20%;
   border-top: 1px solid #47a3da;
   border-bottom: 1px solid #47a3da;
   border-left: 1px solid #47a3da;
-  display: inline-block; }
+  display: inline-block;
+  padding: 10px; }
 
 .image-container {
   border-top: 1px solid #47a3da;
@@ -42,7 +45,7 @@ i {
 #pink-shirt i {
   color: #d482aa; }
 
-#orange-shirt div {
+#yellow-shirt div {
   color: #dcb07d; }
 
 #yellow-shirt i {
@@ -50,5 +53,15 @@ i {
 
 .size {
   text-align: center; }
+
+i:hover {
+  color: white; }
+
+img {
+  max-width: 250px; }
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row; } }
 
 /*# sourceMappingURL=main.css.map */
