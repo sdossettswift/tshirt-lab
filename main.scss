@@ -1,6 +1,6 @@
 $blue: #47a3da;
-$pink: #F47983;
-
+$pink: rgb(212,130, 170);
+$yellow: rgb(220, 176, 125);
 
 *{
   color: $blue;
@@ -33,4 +33,17 @@ i{
 .shirt-box{
   margin: 20px;
   border: 1px solid blue;
+}
+#pink-shirt div {
+  color:$pink;
+}
+
+#pink-shirt i{
+  color:$pink;
+}
+#orange-shirt div{
+  color: $yellow;
+}
+#orange-shirt i{
+  color: $yellow; 
 }
