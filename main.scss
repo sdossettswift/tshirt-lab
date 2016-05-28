@@ -1,76 +1,95 @@
 $blue: #47a3da;
 $pink: rgb(212,130, 170);
 $yellow: rgb(220, 176, 125);
+$white: #FFFFFF;
 
-*{
-  color: $blue;
-  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+* {
+    color: $blue;
+    font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.container{
-  display: flex;
-  flex-direction: column;
-  flex-wrap:nowrap;
-  justify-content: center;
-  align-items: center;
-
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
-.icon-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  height: 40px;
-
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: 40px;
 }
-.icon-container >div {
-  width: 20%;
-  border-top: 1px solid $blue;
-  border-bottom: 1px solid $blue;
-  border-left: 1px solid $blue;
-  display: inline-block;
-  padding: 10px;
-
+.icon-container > div {
+    width: 20%;
+    border-top: 1px solid $blue;
+    border-bottom: 1px solid $blue;
+    border-left: 1px solid $blue;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
 }
-.image-container{
-  border-top: 1px solid $blue;
-  border-left: 1px solid $blue;
-  border-right: 1px solid $blue;
-  padding: 30px;
+.image-container {
+    border-top: 1px solid $blue;
+    border-left: 1px solid $blue;
+    border-right: 1px solid $blue;
+    padding: 30px;
 }
 .cart {
-  border-right: 1px solid $blue;
+    border-right: 1px solid $blue;
 }
-i{
-  padding-left: 40%;
+i {
+    text-align: center;
 }
-.shirt-box{
-  margin: 20px;
+.shirt-box {
+    margin: 20px;
 }
 #pink-shirt div {
-  color:$pink;
+    color: $pink;
 }
+#pink-shirt i {
+    color: $pink;
+}
+#yellow-shirt div {
+    color: $yellow;
+}
+#yellow-shirt i {
+    color: $yellow;
+    :hover {
+      color: $white;
+      background-color: $yellow;
+    }
 
-#pink-shirt i{
-  color:$pink;
 }
-#yellow-shirt div{
-  color: $yellow;
+.size {
+    text-align: center;
 }
-#yellow-shirt i{
-  color: $yellow;
+img {
+    max-width: 250px;
 }
-.size{
-  text-align: center;
+.label-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
 }
-i:hover {
-  color: white;
-}
-img{
-  max-width: 250px;
+.price {
+    font-weight: 600;
 }
 @media (min-width: 768px) {
-  .container{
-      flex-direction: row;
-  }
-
+    .container {
+        flex-direction: row;
+    }
+}
+div.ibox-blue:hover {
+    background: $blue;
+    color: $white;
+}
+div.blue-size:hover {
+    background: $blue;
+    color: $pink;
 }

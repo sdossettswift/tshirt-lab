@@ -22,7 +22,8 @@
   border-bottom: 1px solid #47a3da;
   border-left: 1px solid #47a3da;
   display: inline-block;
-  padding: 10px; }
+  text-align: center;
+  line-height: 40px; }
 
 .image-container {
   border-top: 1px solid #47a3da;
@@ -34,7 +35,7 @@
   border-right: 1px solid #47a3da; }
 
 i {
-  padding-left: 40%; }
+  text-align: center; }
 
 .shirt-box {
   margin: 20px; }
@@ -50,18 +51,37 @@ i {
 
 #yellow-shirt i {
   color: #dcb07d; }
+  #yellow-shirt i :hover {
+    color: #FFFFFF;
+    background-color: #dcb07d; }
 
 .size {
   text-align: center; }
 
-i:hover {
-  color: white; }
-
 img {
   max-width: 250px; }
+
+.label-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding: 5px; }
+
+.price {
+  font-weight: 600; }
 
 @media (min-width: 768px) {
   .container {
     flex-direction: row; } }
+div.ibox-blue:hover {
+  background: #47a3da;
+  color: #FFFFFF; }
+
+div.blue-size:hover {
+  background: #47a3da;
+  color: #d482aa; }
 
 /*# sourceMappingURL=main.css.map */
