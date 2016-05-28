@@ -10,6 +10,7 @@ $yellow: rgb(220, 176, 125);
   display: flex;
   flex-direction: row;
   flex-wrap:nowrap;
+  max-width: 600px;
 }
 .icon-container{
   display: flex;
@@ -24,6 +25,12 @@ $yellow: rgb(220, 176, 125);
   border-left: 1px solid $blue;
   display: inline-block;
 }
+.image-container{
+  border-top: 1px solid $blue;
+  border-left: 1px solid $blue;
+  border-right: 1px solid $blue;
+  padding: 30px;
+}
 .cart {
   border-right: 1px solid $blue;
 }
@@ -32,7 +39,6 @@ i{
 }
 .shirt-box{
   margin: 20px;
-  border: 1px solid blue;
 }
 #pink-shirt div {
   color:$pink;
@@ -44,6 +50,9 @@ i{
 #orange-shirt div{
   color: $yellow;
 }
-#orange-shirt i{
-  color: $yellow; 
+#yellow-shirt i{
+  color: $yellow;
+}
+.size{
+  text-align: center;
 }

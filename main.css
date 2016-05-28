@@ -5,7 +5,8 @@
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  max-width: 600px; }
 
 .icon-container {
   display: flex;
@@ -20,6 +21,12 @@
   border-left: 1px solid #47a3da;
   display: inline-block; }
 
+.image-container {
+  border-top: 1px solid #47a3da;
+  border-left: 1px solid #47a3da;
+  border-right: 1px solid #47a3da;
+  padding: 30px; }
+
 .cart {
   border-right: 1px solid #47a3da; }
 
@@ -27,8 +34,7 @@ i {
   padding-left: 40%; }
 
 .shirt-box {
-  margin: 20px;
-  border: 1px solid blue; }
+  margin: 20px; }
 
 #pink-shirt div {
   color: #d482aa; }
@@ -39,7 +45,10 @@ i {
 #orange-shirt div {
   color: #dcb07d; }
 
-#orange-shirt i {
+#yellow-shirt i {
   color: #dcb07d; }
+
+.size {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
