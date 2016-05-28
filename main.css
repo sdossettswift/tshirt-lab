@@ -1,0 +1,33 @@
+* {
+  color: #47a3da;
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch; }
+
+.icon-container > div {
+  width: 20%;
+  border-top: 1px solid #47a3da;
+  border-bottom: 1px solid #47a3da;
+  border-left: 1px solid #47a3da;
+  display: inline-block; }
+
+.cart {
+  border-right: 1px solid #47a3da; }
+
+i {
+  padding-left: 40%; }
+
+.shirt-box {
+  margin: 20px;
+  border: 1px solid blue; }
+
+/*# sourceMappingURL=main.css.map */
