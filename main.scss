@@ -36,7 +36,13 @@ $white: #FFFFFF;
     border-right: 1px solid $blue;
     padding: 30px;
 }
-.cart {
+#cart {
+    border-right: 1px solid $blue;
+}
+#pink-cart{
+  border-right: 1px solid $blue;
+}
+#yellow-cart {
     border-right: 1px solid $blue;
 }
 i {
@@ -56,11 +62,6 @@ i {
 }
 #yellow-shirt i {
     color: $yellow;
-    :hover {
-      color: $white;
-      background-color: $yellow;
-    }
-
 }
 .size {
     text-align: center;
@@ -89,7 +90,122 @@ div.ibox-blue:hover {
     background: $blue;
     color: $white;
 }
+div.ibox-blue:hover i {
+    background: $blue;
+    color: $white;
+}
 div.blue-size:hover {
     background: $blue;
-    color: $pink;
+    color: $white;
+}
+
+#blue-heart:hover{
+  background-color: $blue;
+  color: $white;
+}
+
+#blue-heart:hover i{
+  background-color: $blue;
+  color: $white;
+}
+
+//pink
+div.ibox-pink:hover {
+    background: $pink;
+    color: $white;
+}
+div.ibox-pink:hover i {
+    background: $pink;
+    color: $white;
+}
+#pink-size:hover {
+    background: $pink;
+    color: $white;
+}
+
+#pink-heart:hover{
+  background-color: $pink;
+  color: $white;
+}
+
+#pink-heart:hover i{
+  background-color: $pink;
+  color: $white;
+}
+#pink-flip:hover{
+  background-color: $pink;
+  color: $white;
+}
+
+#pink-flip:hover i{
+  background-color: $pink;
+  color: $white;
+}
+#pink-cart:hover{
+  background-color: $pink;
+  color: $white;
+}
+
+#pink-cart:hover i{
+  background-color: $pink;
+  color: $white;
+}
+#pink-color:hover{
+  background-color: $pink;
+  color: $white;
+}
+
+#pink-color:hover i{
+  background-color: $pink;
+  color: $white;
+}
+//yellow
+div.ibox-yellow:hover {
+    background: $yellow;
+    color: $white;
+}
+div.ibox-pink:hover i {
+    background: $pink;
+    color: $white;
+}
+#yellow-size:hover {
+    background: $yellow;
+    color: $white;
+}
+
+#yellow-heart:hover{
+  background-color: $yellow;
+  color: $white;
+}
+
+#yellow-heart:hover i{
+  background-color: $yellow;
+  color: $white;
+}
+#yellow-flip:hover{
+  background-color: $yellow;
+  color: $white;
+}
+
+#yellow-flip:hover i{
+  background-color: $yellow;
+  color: $white;
+}
+#yellow-cart:hover{
+  background-color: $yellow;
+  color: $white;
+}
+
+#yellow-cart:hover i{
+  background-color: $yellow;
+  color: $white;
+}
+#yellow-color:hover{
+  background-color: $yellow;
+  color: $white;
+}
+
+#yellow-color:hover i{
+  background-color: $yellow;
+  color: $white;
 }

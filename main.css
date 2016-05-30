@@ -31,7 +31,13 @@
   border-right: 1px solid #47a3da;
   padding: 30px; }
 
-.cart {
+#cart {
+  border-right: 1px solid #47a3da; }
+
+#pink-cart {
+  border-right: 1px solid #47a3da; }
+
+#yellow-cart {
   border-right: 1px solid #47a3da; }
 
 i {
@@ -51,9 +57,6 @@ i {
 
 #yellow-shirt i {
   color: #dcb07d; }
-  #yellow-shirt i :hover {
-    color: #FFFFFF;
-    background-color: #dcb07d; }
 
 .size {
   text-align: center; }
@@ -80,8 +83,108 @@ div.ibox-blue:hover {
   background: #47a3da;
   color: #FFFFFF; }
 
+div.ibox-blue:hover i {
+  background: #47a3da;
+  color: #FFFFFF; }
+
 div.blue-size:hover {
   background: #47a3da;
-  color: #d482aa; }
+  color: #FFFFFF; }
+
+#blue-heart:hover {
+  background-color: #47a3da;
+  color: #FFFFFF; }
+
+#blue-heart:hover i {
+  background-color: #47a3da;
+  color: #FFFFFF; }
+
+div.ibox-pink:hover {
+  background: #d482aa;
+  color: #FFFFFF; }
+
+div.ibox-pink:hover i {
+  background: #d482aa;
+  color: #FFFFFF; }
+
+#pink-size:hover {
+  background: #d482aa;
+  color: #FFFFFF; }
+
+#pink-heart:hover {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#pink-heart:hover i {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#pink-flip:hover {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#pink-flip:hover i {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#pink-cart:hover {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#pink-cart:hover i {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#pink-color:hover {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#pink-color:hover i {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+div.ibox-yellow:hover {
+  background: #dcb07d;
+  color: #FFFFFF; }
+
+div.ibox-pink:hover i {
+  background: #d482aa;
+  color: #FFFFFF; }
+
+#yellow-size:hover {
+  background: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-heart:hover {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-heart:hover i {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-flip:hover {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-flip:hover i {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-cart:hover {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-cart:hover i {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-color:hover {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-color:hover i {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
