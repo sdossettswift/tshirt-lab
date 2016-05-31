@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   color: #47a3da;
   font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -108,6 +109,12 @@ div.blue-size:hover {
 
 div.size-options-wrapper {
   opacity: 0; }
+
+div.color-options-wrapper {
+  opacity: 0; }
+
+div.ibox-blue:hover div.color-options-wrapper {
+  opacity: 1; }
 
 div.blue-size:hover div.size-options-wrapper {
   opacity: 1; }
@@ -250,14 +257,25 @@ div.ibox-pink:hover i {
 
 .callout {
   position: relative;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: white;
   border-radius: 6px;
   width: 50px; }
   .callout img {
     align-self: center;
     padding-left: 10px; }
+
+.callout-color {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 6px;
+  width: 100px; }
+  .callout-color img {
+    align-self: center;
+    padding-left: 0px; }
 
 .callout .notch {
   position: absolute;
@@ -272,9 +290,25 @@ div.ibox-pink:hover i {
   width: 0;
   height: 0; }
 
+.callout-color .notch {
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  margin: 0;
+  border-top: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  padding: 0;
+  width: 0;
+  height: 0; }
+
+img#“swatches” {
+  padding-top: 15px; }
+
 .border-callout {
   border: 1px solid #47a3da;
-  padding: 0px 10px; }
+  padding: 0 10px; }
 
 .border-callout .border-notch {
   border-bottom-color: #47a3da;

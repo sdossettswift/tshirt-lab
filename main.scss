@@ -2,7 +2,6 @@ $blue: #47a3da;
 $pink: rgb(212,130, 170);
 $yellow: rgb(220, 176, 125);
 $white: #FFFFFF;
-
 * {
     color: $blue;
     font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -36,30 +35,25 @@ $white: #FFFFFF;
     border-right: 3px solid $blue;
     padding-left: 30px;
     padding-bottom: 30px;
-
 }
-img{
-  padding-top: 30px;
+img {
+    padding-top: 30px;
 }
-
 .flipper-button {
-  border-bottom: 3px solid $blue;
-  border-left: 3px solid $blue;
-
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  text-align: center;
-  display: inline;;
-  float: right;
-
-
+    border-bottom: 3px solid $blue;
+    border-left: 3px solid $blue;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline;
+    float: right;
 }
 #cart {
     border-right: 3px solid $blue;
 }
-#pink-cart{
-  border-right: 3px solid $blue;
+#pink-cart {
+    border-right: 3px solid $blue;
 }
 #yellow-cart {
     border-right: 3px solid $blue;
@@ -119,31 +113,31 @@ div.blue-size:hover {
     color: $white;
 }
 div.size-options-wrapper{
-  opacity: 0;
+    opacity: 0;
 }
-div.blue-size:hover  div.size-options-wrapper {
+div.color-options-wrapper{
+    opacity: 0;
+}
+div.ibox-blue:hover div.color-options-wrapper {
     opacity: 1;
-
 }
-#pink-size:hover  div.size-options-wrapper {
+div.blue-size:hover div.size-options-wrapper {
     opacity: 1;
-
 }
-#yellow-size:hover  div.size-options-wrapper {
+#pink-size:hover div.size-options-wrapper {
     opacity: 1;
-
 }
-
-#blue-heart:hover{
-  background-color: $blue;
-  color: $white;
+#yellow-size:hover div.size-options-wrapper {
+    opacity: 1;
 }
-
-#blue-heart:hover i{
-  background-color: $blue;
-  color: $white;
+#blue-heart:hover {
+    background-color: $blue;
+    color: $white;
 }
-
+#blue-heart:hover i {
+    background-color: $blue;
+    color: $white;
+}
 //pink
 div.ibox-pink:hover {
     background: $pink;
@@ -157,42 +151,37 @@ div.ibox-pink:hover i {
     background: $pink;
     color: $white;
 }
-
-#pink-heart:hover{
-  background-color: $pink;
-  color: $white;
+#pink-heart:hover {
+    background-color: $pink;
+    color: $white;
 }
-
-#pink-heart:hover i{
-  background-color: $pink;
-  color: $white;
+#pink-heart:hover i {
+    background-color: $pink;
+    color: $white;
 }
-#pink-flip:hover{
-  background-color: $pink;
-  color: $white;
+#pink-flip:hover {
+    background-color: $pink;
+    color: $white;
 }
-
-#pink-flip:hover i{
-  background-color: $pink;
-  color: $white;
+#pink-flip:hover i {
+    background-color: $pink;
+    color: $white;
 }
-#pink-cart:hover{
-  background-color: $pink;
-  color: $white;
+#pink-cart:hover {
+    background-color: $pink;
+    color: $white;
 }
-
-#pink-cart:hover i{
-  background-color: $pink;
-  color: $white;
+#pink-cart:hover i {
+    background-color: $pink;
+    color: $white;
 }
-#pink-color:hover{
-  background-color: $pink;
-  color: $white;
+#pink-color:hover {
+    background-color: $pink;
+    color: $white;
 }
-
-#pink-color:hover i{
-  background-color: $pink;
-  color: $white;
+#pink-color:hover i {
+    background-color: $pink;
+    color: $white;
 }
 //yellow
 div.ibox-yellow:hover {
@@ -207,94 +196,97 @@ div.ibox-pink:hover i {
     background: $yellow;
     color: $white;
 }
-
-#yellow-heart:hover{
-  background-color: $yellow;
-  color: $white;
+#yellow-heart:hover {
+    background-color: $yellow;
+    color: $white;
 }
-
-#yellow-heart:hover i{
-  background-color: $yellow;
-  color: $white;
+#yellow-heart:hover i {
+    background-color: $yellow;
+    color: $white;
 }
-#yellow-flip:hover{
-  background-color: $yellow;
-  color: $white;
+#yellow-flip:hover {
+    background-color: $yellow;
+    color: $white;
 }
-
-#yellow-flip:hover i{
-  background-color: $yellow;
-  color: $white;
+#yellow-flip:hover i {
+    background-color: $yellow;
+    color: $white;
 }
-#yellow-cart:hover{
-  background-color: $yellow;
-  color: $white;
+#yellow-cart:hover {
+    background-color: $yellow;
+    color: $white;
 }
-
-#yellow-cart:hover i{
-  background-color: $yellow;
-  color: $white;
+#yellow-cart:hover i {
+    background-color: $yellow;
+    color: $white;
 }
-#yellow-color:hover{
-  background-color: $yellow;
-  color: $white;
+#yellow-color:hover {
+    background-color: $yellow;
+    color: $white;
 }
-
-#yellow-color:hover i{
-  background-color: $yellow;
-  color: $white;
+#yellow-color:hover i {
+    background-color: $yellow;
+    color: $white;
 }
 .flipper-button:hover {
-  background-color: $blue;
-  color: $white;
+    background-color: $blue;
+    color: $white;
 }
 .flipper-button:hover i {
-  background-color: $blue;
-  color: $white;
+    background-color: $blue;
+    color: $white;
 }
-
 #pink-flipper:hover {
-  background-color: $pink;
-  color: $white;
+    background-color: $pink;
+    color: $white;
 }
-
-#pink-flipper:hover i{
-  background-color: $pink;
-  color: $white;
+#pink-flipper:hover i {
+    background-color: $pink;
+    color: $white;
 }
-
 #yellow-flipper:hover {
-  background-color: $yellow;
-  color: $white;
+    background-color: $yellow;
+    color: $white;
 }
-
-#yellow-flipper:hover i{
-  background-color: $yellow;
-  color: $white;
+#yellow-flipper:hover i {
+    background-color: $yellow;
+    color: $white;
 }
-#wrapper{
-  background: blue;
-  border: 2px solid $blue;
-  height: 200px;
-  width: 80px;
+#wrapper {
+    background: blue;
+    border: 2px solid $blue;
+    height: 200px;
+    width: 80px;
 }
-#shirtsize{
-  padding: 0;
-  margin: 0;
+#shirtsize {
+    padding: 0;
+    margin: 0;
 }
-
 .callout {
     position: relative;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: white;
     border-radius: 6px;
     width: 50px;
-    img{
-      align-self: center;
-      padding-left: 10px;
+    img {
+        align-self: center;
+        padding-left: 10px;
     }
 }
+.callout-color {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 6px;
+    width: 100px;
+    img {
+        align-self: center;
+        padding-left: 0px;
+    }
+}
+
 .callout .notch {
     position: absolute;
     top: -10px;
@@ -308,5 +300,27 @@ div.ibox-pink:hover i {
     width: 0;
     height: 0;
 }
-.border-callout { border: 1px solid $blue; padding: 0px 10px; }
-.border-callout .border-notch { border-bottom-color: $blue; top: -11px; }
+.callout-color .notch {
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    margin: 0;
+    border-top: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+img#“swatches” {
+    padding-top: 15px;
+}
+.border-callout {
+    border: 1px solid $blue;
+    padding: 0 10px;
+}
+.border-callout .border-notch {
+    border-bottom-color: $blue;
+    top: -11px;
+}
