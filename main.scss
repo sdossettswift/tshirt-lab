@@ -23,27 +23,46 @@ $white: #FFFFFF;
 }
 .icon-container > div {
     width: 20%;
-    border-top: 1px solid $blue;
-    border-bottom: 1px solid $blue;
-    border-left: 1px solid $blue;
+    border-top: 3px solid $blue;
+    border-bottom: 3px solid $blue;
+    border-left: 3px solid $blue;
     display: inline-block;
     text-align: center;
     line-height: 40px;
 }
 .image-container {
-    border-top: 1px solid $blue;
-    border-left: 1px solid $blue;
-    border-right: 1px solid $blue;
-    padding: 30px;
+    border-top: 3px solid $blue;
+    border-left: 3px solid $blue;
+    border-right: 3px solid $blue;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+}
+img{
+  padding-top: 30px;
+}
+
+.flipper-button {
+  border-bottom: 3px solid $blue;
+  border-left: 3px solid $blue;
+
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline;;
+  float: right;
+
+
 }
 #cart {
-    border-right: 1px solid $blue;
+    border-right: 3px solid $blue;
 }
 #pink-cart{
-  border-right: 1px solid $blue;
+  border-right: 3px solid $blue;
 }
 #yellow-cart {
-    border-right: 1px solid $blue;
+    border-right: 3px solid $blue;
 }
 i {
     text-align: center;
@@ -68,6 +87,7 @@ i {
 }
 img {
     max-width: 250px;
+    padding-left: 10px;
 }
 .label-container {
     display: flex;
@@ -208,4 +228,41 @@ div.ibox-pink:hover i {
 #yellow-color:hover i{
   background-color: $yellow;
   color: $white;
+}
+.flipper-button:hover {
+  background-color: $blue;
+  color: $white;
+}
+.flipper-button:hover i {
+  background-color: $blue;
+  color: $white;
+}
+
+#pink-flipper:hover {
+  background-color: $pink;
+  color: $white;
+}
+
+#pink-flipper:hover i{
+  background-color: $pink;
+  color: $white;
+}
+
+#yellow-flipper:hover {
+  background-color: $yellow;
+  color: $white;
+}
+
+#yellow-flipper:hover i{
+  background-color: $yellow;
+  color: $white;
+}
+.visibility-anchor{
+  display: float;
+  height: 0px;
+  width: 0px;
+
+}
+#dropdown img{
+height: 10px; 
 }

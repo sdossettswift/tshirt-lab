@@ -18,27 +18,41 @@
 
 .icon-container > div {
   width: 20%;
-  border-top: 1px solid #47a3da;
-  border-bottom: 1px solid #47a3da;
-  border-left: 1px solid #47a3da;
+  border-top: 3px solid #47a3da;
+  border-bottom: 3px solid #47a3da;
+  border-left: 3px solid #47a3da;
   display: inline-block;
   text-align: center;
   line-height: 40px; }
 
 .image-container {
-  border-top: 1px solid #47a3da;
-  border-left: 1px solid #47a3da;
-  border-right: 1px solid #47a3da;
-  padding: 30px; }
+  border-top: 3px solid #47a3da;
+  border-left: 3px solid #47a3da;
+  border-right: 3px solid #47a3da;
+  padding-left: 30px;
+  padding-bottom: 30px; }
+
+img {
+  padding-top: 30px; }
+
+.flipper-button {
+  border-bottom: 3px solid #47a3da;
+  border-left: 3px solid #47a3da;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline;
+  float: right; }
 
 #cart {
-  border-right: 1px solid #47a3da; }
+  border-right: 3px solid #47a3da; }
 
 #pink-cart {
-  border-right: 1px solid #47a3da; }
+  border-right: 3px solid #47a3da; }
 
 #yellow-cart {
-  border-right: 1px solid #47a3da; }
+  border-right: 3px solid #47a3da; }
 
 i {
   text-align: center; }
@@ -62,7 +76,8 @@ i {
   text-align: center; }
 
 img {
-  max-width: 250px; }
+  max-width: 250px;
+  padding-left: 10px; }
 
 .label-container {
   display: flex;
@@ -186,5 +201,37 @@ div.ibox-pink:hover i {
 #yellow-color:hover i {
   background-color: #dcb07d;
   color: #FFFFFF; }
+
+.flipper-button:hover {
+  background-color: #47a3da;
+  color: #FFFFFF; }
+
+.flipper-button:hover i {
+  background-color: #47a3da;
+  color: #FFFFFF; }
+
+#pink-flipper:hover {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#pink-flipper:hover i {
+  background-color: #d482aa;
+  color: #FFFFFF; }
+
+#yellow-flipper:hover {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+#yellow-flipper:hover i {
+  background-color: #dcb07d;
+  color: #FFFFFF; }
+
+.visibility-anchor {
+  display: float;
+  height: 0px;
+  width: 0px; }
+
+#dropdown img {
+  height: 10px; }
 
 /*# sourceMappingURL=main.css.map */
