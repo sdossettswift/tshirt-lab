@@ -106,6 +106,18 @@ div.blue-size:hover {
   background: #47a3da;
   color: #FFFFFF; }
 
+div.size-options-wrapper {
+  opacity: 0; }
+
+div.blue-size:hover div.size-options-wrapper {
+  opacity: 1; }
+
+#pink-size:hover div.size-options-wrapper {
+  opacity: 1; }
+
+#yellow-size:hover div.size-options-wrapper {
+  opacity: 1; }
+
 #blue-heart:hover {
   background-color: #47a3da;
   color: #FFFFFF; }
@@ -226,12 +238,46 @@ div.ibox-pink:hover i {
   background-color: #dcb07d;
   color: #FFFFFF; }
 
-.visibility-anchor {
-  display: float;
-  height: 0px;
-  width: 0px; }
+#wrapper {
+  background: blue;
+  border: 2px solid #47a3da;
+  height: 200px;
+  width: 80px; }
 
-#dropdown img {
-  height: 10px; }
+#shirtsize {
+  padding: 0;
+  margin: 0; }
+
+.callout {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  border-radius: 6px;
+  width: 50px; }
+  .callout img {
+    align-self: center;
+    padding-left: 10px; }
+
+.callout .notch {
+  position: absolute;
+  top: -10px;
+  left: 25px;
+  margin: 0;
+  border-top: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  padding: 0;
+  width: 0;
+  height: 0; }
+
+.border-callout {
+  border: 1px solid #47a3da;
+  padding: 0px 10px; }
+
+.border-callout .border-notch {
+  border-bottom-color: #47a3da;
+  top: -11px; }
 
 /*# sourceMappingURL=main.css.map */

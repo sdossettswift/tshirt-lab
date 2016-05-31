@@ -118,6 +118,21 @@ div.blue-size:hover {
     background: $blue;
     color: $white;
 }
+div.size-options-wrapper{
+  opacity: 0;
+}
+div.blue-size:hover  div.size-options-wrapper {
+    opacity: 1;
+
+}
+#pink-size:hover  div.size-options-wrapper {
+    opacity: 1;
+
+}
+#yellow-size:hover  div.size-options-wrapper {
+    opacity: 1;
+
+}
 
 #blue-heart:hover{
   background-color: $blue;
@@ -257,12 +272,41 @@ div.ibox-pink:hover i {
   background-color: $yellow;
   color: $white;
 }
-.visibility-anchor{
-  display: float;
-  height: 0px;
-  width: 0px;
+#wrapper{
+  background: blue;
+  border: 2px solid $blue;
+  height: 200px;
+  width: 80px;
+}
+#shirtsize{
+  padding: 0;
+  margin: 0;
+}
 
+.callout {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 6px;
+    width: 50px;
+    img{
+      align-self: center;
+      padding-left: 10px;
+    }
 }
-#dropdown img{
-height: 10px; 
+.callout .notch {
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    margin: 0;
+    border-top: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    padding: 0;
+    width: 0;
+    height: 0;
 }
+.border-callout { border: 1px solid $blue; padding: 0px 10px; }
+.border-callout .border-notch { border-bottom-color: $blue; top: -11px; }
