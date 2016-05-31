@@ -274,24 +274,24 @@ div.ibox-pink:hover i {
     padding: 0;
     background-color: white;
     border-radius: 6px;
-    width: 50px;
+    width: 150%;
     img {
         align-self: center;
-        padding-left: 10px;
+        padding: 0px;
     }
 }
-.callout-color {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    border-radius: 6px;
-    width: 100px;
-    img {
-        align-self: center;
-        padding-left: 0px;
-    }
-}
+// .callout-color {
+//     position: relative;
+//     margin: 0;
+//     padding: 0;
+//     background-color: white;
+//     border-radius: 6px;
+//     width: 150px;
+//     img {
+//         align-self: center;
+//         padding-left: 0px;
+//     }
+// }
 
 .callout .notch {
     position: absolute;
@@ -324,7 +324,6 @@ img#“swatches” {
 }
 .border-callout {
     border: 1px solid $blue;
-    padding: 0 10px;
 }
 .border-callout .border-notch {
     border-bottom-color: $blue;
