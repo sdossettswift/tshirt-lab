@@ -33,12 +33,10 @@ $white: #FFFFFF;
     border-top: 3px solid $blue;
     border-left: 3px solid $blue;
     border-right: 3px solid $blue;
-    padding-left: 30px;
-    padding-bottom: 30px;
+    padding: 10%;
+    position: relative;
 }
-img {
-    padding-top: 30px;
-}
+
 .flipper-button {
     border-bottom: 3px solid $blue;
     border-left: 3px solid $blue;
@@ -46,8 +44,10 @@ img {
     width: 30px;
     line-height: 30px;
     text-align: center;
-    display: inline;
-    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
 }
 #cart {
     border-right: 3px solid $blue;
@@ -80,8 +80,7 @@ i {
     text-align: center;
 }
 img {
-    max-width: 250px;
-    padding-left: 10px;
+    max-width: 100%;
 }
 .label-container {
     display: flex;
@@ -329,3 +328,29 @@ img#“swatches” {
     border-bottom-color: $blue;
     top: -11px;
 }
+
+//flipping shirt
+// #blue-shirt{
+//   perspective: 1000px;
+// }
+// #blue-image-container{
+//   max-width: 300px;
+// position:relative;
+// transition: 3s transform ease;
+// transform-style: preserve-3d;
+// }
+// #blue-image-container img{
+//   width: 100%;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   backface-visibility: hidden ;
+// }
+// 
+// #shirt-back {
+//   transform: rotateY(180deg);
+// }
+//
+// input[type="checkbox"]:checked ~ #flipHolder {
+//   transform: rotateY(180deg);
+// }

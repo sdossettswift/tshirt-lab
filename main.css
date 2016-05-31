@@ -30,11 +30,8 @@
   border-top: 3px solid #47a3da;
   border-left: 3px solid #47a3da;
   border-right: 3px solid #47a3da;
-  padding-left: 30px;
-  padding-bottom: 30px; }
-
-img {
-  padding-top: 30px; }
+  padding: 10%;
+  position: relative; }
 
 .flipper-button {
   border-bottom: 3px solid #47a3da;
@@ -43,8 +40,9 @@ img {
   width: 30px;
   line-height: 30px;
   text-align: center;
-  display: inline;
-  float: right; }
+  position: absolute;
+  top: 0px;
+  right: 0px; }
 
 #cart {
   border-right: 3px solid #47a3da; }
@@ -77,8 +75,7 @@ i {
   text-align: center; }
 
 img {
-  max-width: 250px;
-  padding-left: 10px; }
+  max-width: 100%; }
 
 .label-container {
   display: flex;
